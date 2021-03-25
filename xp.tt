@@ -29,7 +29,7 @@
 	#var thirty_minutes_xp 0;
 	#var sixty_minutes_xp 0;
 
-	#forall {$xp_log[]} {
+	#foreach {$xp_log[]} {
 		#if {&0 < @get_epoch{} - $sixty_minutes} {
 			#unvar xp_log[&0];
 			#continue;

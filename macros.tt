@@ -1,0 +1,30 @@
+#nop F1 - F12
+#macro {\eOP} { cast demonfire; }
+
+#macro {\eOQ} { cast harm; }
+
+#macro {\eOR} { cast firestorm; }
+
+#macro {\eOS} { cast trem; }
+
+#macro {\e[15~} { --; }
+
+#macro {\e[17~} { exa corpse; }
+
+#macro {\e[18~} { }
+
+#macro {\e[19~} { c heal me; }
+
+#macro {\e[20~} { c a; c b; c pr; c infra; c det inv; c det good;c det evil; c q; c lev; c infra; }
+
+#macro {\e[21~} { c sanc; }
+
+#macro {\e[22~} { }
+
+#macro {\e[23~} { }
+
+#nop keypads. Hold option key + direction
+#macro {\e\e[D} {west}
+#macro {\e\e[A} {north}
+#macro {\e\e[C} {east}
+#macro {\e\e[B} {south}

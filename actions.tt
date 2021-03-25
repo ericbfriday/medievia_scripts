@@ -1,0 +1,9 @@
+#nop general QoL actions. to be moved/refactored later.
+#action {^You have to stand up before you can do that.} { stand; }
+
+#action {^The %1 seems to be closed.} { open %1 }
+#action {The %1 is closed.} {open %1}
+
+
+#nop The floor vibrates slightly under your feet...
+#nop The ground pulsates and shakes.. .. .

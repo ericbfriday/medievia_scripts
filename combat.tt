@@ -20,6 +20,13 @@
 #alias {sw} {cast shockwave %1}
 #alias {aci} {cast acid blast}
 
+#alias {cd} {cast demon %1}
+#alias {ctr} {cast tremor}
+
+#alias {xc} {examine corpse}
+#alias {ggc} {get gold corpse}
+#alias {sacc} {sac corpse}
+
 #act {^The white aura around your body fades.$} {
 	tick_event;
 }

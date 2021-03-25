@@ -13,14 +13,17 @@
 #read scraper.tt
 #read xp.tt
 
+#read actions.tt
 #read events.tt
+#read gags.tt
+#read macros.tt
 
 #alias reload {
 	#kill;
 	#read tts.tt;
 }
 
-#act {] <%1/%2hp %3/%4m %5mv %6br> %7} {
+#act {] <%1/%2hp %3/%4m %5mv %6br %7xp -r> %8} {
 	#var hp %1;
 	#var hp_max %2;
 	#math hp_p {$hp / $hp_max * 100.0};
@@ -29,7 +32,8 @@
 	#math mana_p {$mana / $mana_max * 100.0};
 	#var move %5;
 	#var breath %6;
-	#var pk_type %7;
+	#var xp_counter %7;
+	#var pk_type %8;
 }
 
 #alias {lc} {
@@ -77,3 +81,5 @@
 		#return;
 	};
 }
+
+#split 1 1
